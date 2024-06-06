@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <algolia-id>HTV291KDPJ</algolia-id>
+        <algolia-index>prod_Horizon</algolia-index>
+        <algolia-api-key>b29bb4c042b3e234dc0b184b5d5b938c</algolia-api-key>
+    </variables>
+    <build-profile instance="horizondoc">
+        <variables>
+            <primary-color>purple</primary-color>
+            <color-preset>contrast</color-preset>
+            <noindex-content>true</noindex-content>
+        </variables>
+        <footer>
+            <link href="https://boosty.to/gideonwhite1029">Boosty</link>
+        </footer>
+    </build-profile>
+
+</buildprofiles>
