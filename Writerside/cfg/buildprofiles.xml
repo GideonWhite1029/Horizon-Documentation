@@ -10,10 +10,11 @@
     <build-profile instance="horizondoc">
         <variables>
             <primary-color>purple</primary-color>
-            <color-preset>contrast</color-preset>
+            <color-preset>vivid</color-preset>
             <noindex-content>true</noindex-content>
         </variables>
         <footer>
+            <social type="email" href="gideonwhite1029@gmail.com">Email</social>
             <link href="https://boosty.to/gideonwhite1029">Boosty</link>
             <link href="https://tapy.me/gideonwhite1029">Other Links</link>
         </footer>

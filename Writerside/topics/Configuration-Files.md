@@ -18,8 +18,8 @@ settings:
     fast-resume: true # Creates a file with information for quickly starting and loading the server
     disable-packet-limit: true # Disables the packet sending limit (Useful if you are using Litematic to insert a large building into the world)
     update-suppression-crash-fix: false # Includes the ability to suppress updates (At the moment there is no mechanism that uses the update suppressor for 1.20.6+)
-    cce-update-suppression: false
-    no-tnt-place-update: false
+    cce-update-suppression: false # Includes the ability to suppress updates (At the moment there is no mechanism that uses the update suppressor for 1.20.6+)
+    no-tnt-place-update: false # Disables TNT update when it is posted
     instant-block-updater-reintroduced: false # Enables instant block updates
     redstone-wire-dont-connect-if-on-trapdoor: false # If the redstone is on the hatch, it will not turn on
   protocols:
