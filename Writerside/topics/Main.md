@@ -3,10 +3,10 @@
 **Horizon is a Purpur fork with many useful optimizations, configurable vanilla features, and more API supports**
 
 ## Features
-- **Linear region support** from [LinearPurpur](https://github.com/StupidCraft/LinearPurpur) to save disk space (Temporarily unavailable)
 - **Fully compatible** with Bukkit, Spigot and Paper plugins
 - **Mod Protocols** support
-- **Replay API** support (Temporarily unavailable)
+- **Secure Seed** support (temporarily unavailable)
+- **Replay API** support
 - **Fakeplayer Support** - Allows you to create bots for different tests
 - **and more in future**
 

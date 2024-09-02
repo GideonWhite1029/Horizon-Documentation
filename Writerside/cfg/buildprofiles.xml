@@ -9,6 +9,9 @@
     </variables>
     <build-profile instance="horizondoc">
         <variables>
+            <custom-favicons>horizon.svg</custom-favicons>
+            <header-logo>horizon.svg</header-logo>
+            <product-web-url>https://github.com/GideonWhite1029/Horizon-Documentation</product-web-url>
             <primary-color>purple</primary-color>
             <color-preset>vivid</color-preset>
             <noindex-content>true</noindex-content>
