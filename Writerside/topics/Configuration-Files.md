@@ -26,6 +26,10 @@ settings:
     crafter-1-gt-delay: false # Crafter has 1 redstone teak
     disable-packet-limit: true # Disables the packet sending limit (Useful if you are using Litematic to insert a large building into the world)
     disableMovedWronglyThreshold: false # Disables any Moved Wrongly Threshold
+    secure-seed: false # Protecting the seed from attempts to calculate or hack
+    stack:
+      max-item-stack-count: 0 # Change the maximum stack of discarded items
+      max-container-destroy-count: 0 # Change the maximum stack of items when breaking a container (chests, hoppers, etc.)
   utils:
     hopper-counter: false # Adds the /counter command
     use_virtual_thread_for_async_scheduler: false # Use virtual streams instead of regular ones
@@ -57,5 +61,13 @@ settings:
     fasterChunkSerialization: false
     optimizeNoiseGeneration: false
     configurable-mc-67: true # Allows mobs and other entities to pass through a nether portal
+    async-player-data-saving: false
+  region:
+    format: ANVIL # Region File Type (ANVIL or LINEAR)
+    linear:
+      flush-frequency: 10 # Specify the region save frequency (seconds)
+      auto-convert-anvil-to-linear: false # Automatically converts Anvil file format (.mca) to Linear file format (.linear) (WARNING - Make sure you have a full backup of the world before turning this option on)
+      flush-max-threads: 1 # Specify the maximum number of threads to use when saving regions. Set to -1 to use all threads
+      compression-level: 1 # Compression level for region files. Should be a number between 1 and 22
 config-version: 3
 ```
