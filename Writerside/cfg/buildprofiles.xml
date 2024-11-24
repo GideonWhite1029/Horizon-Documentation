@@ -2,19 +2,17 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables>
-        <algolia-id>HTV291KDPJ</algolia-id>
-        <algolia-index>prod_Horizon</algolia-index>
-        <algolia-api-key>b29bb4c042b3e234dc0b184b5d5b938c</algolia-api-key>
-    </variables>
     <build-profile instance="horizondoc">
         <variables>
+            <web-root>https://gideonwhite1029.github.io/Horizon-Documentation/</web-root>
+            <download-page>https://github.com/GideonWhite1029/Horizon/releases/latest</download-page>
+            <download-title>Download Horizon</download-title>
+            <showDownloadButton>true</showDownloadButton>
             <custom-favicons>horizon.svg</custom-favicons>
             <header-logo>horizon.svg</header-logo>
-            <product-web-url>https://github.com/GideonWhite1029/Horizon-Documentation</product-web-url>
+            <product-web-url>https://github.com/GideonWhite1029/Horizon</product-web-url>
             <primary-color>purple</primary-color>
             <color-preset>vivid</color-preset>
-            <noindex-content>true</noindex-content>
         </variables>
         <footer>
             <social type="email" href="gideonwhite1029@gmail.com">Email</social>

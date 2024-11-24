@@ -11,6 +11,34 @@
 - **Fakeplayer Support** - Allows you to create bots for different tests
 - **and more in future**
 
+### Dependency Information
+Maven
+```xml
+<repository>
+    <id>horizon</id>
+    <url>https://repo.timelesswaffle.su/snapshots</url>
+</repository>
+```
+```xml
+<dependency>
+    <groupId>dev.horizonmc.horizon</groupId>
+    <artifactId>horizon-api</artifactId>
+    <version>1.21.1-R0.1-SNAPSHOT</version>
+</dependency>
+```
+
+Gradle
+```kotlin
+repositories {
+    maven("https://repo.timelesswaffle.su/snapshots")
+}
+```
+```kotlin
+dependencies {
+    compileOnly("dev.horizonmc.horizon:horizon-api:1.21.1-R0.1-SNAPSHOT")
+}
+```
+
 ## Build
 To build a paperclip jar, you need to run the following command. You can find the jar in build/libs(Note: JDK17 or JDK21 is needed)
 
@@ -22,8 +50,5 @@ To build a paperclip jar, you need to run the following command. You can find th
 When you meet any problems, just ask us, we will do our best to solve it, but remember to state your problem clear and provide enough logs etc.
 
 ## Contributing
-
-> The project is temporarily closed and to access it you need to write to the author in private messages on <tooltip term="Discord">Discord</tooltip> or other [social networks](https://tapy.me/gideonwhite1029)
-{style="warning"}
 
 This readme will eventually contain instructions regarding the patch system. For now, visit [Contributing.md](Contrbuting.md).

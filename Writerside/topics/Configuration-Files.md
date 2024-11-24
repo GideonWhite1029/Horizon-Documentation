@@ -30,10 +30,19 @@ settings:
     stack:
       max-item-stack-count: 0 # Change the maximum stack of discarded items
       max-container-destroy-count: 0 # Change the maximum stack of items when breaking a container (chests, hoppers, etc.)
+    elytra-aeronautics:
+      no-chunk-load: false # Disable loading of chunks when reaching a certain height on elytra
+      no-chunk-height: 500.0
+      no-chunk-speed: -1.0
+      message: true # Send messages about switching to mode
+      message-start: Flight enter cruise mode
+      message-end: Flight exit cruise mode
   utils:
     hopper-counter: false # Adds the /counter command
     use_virtual_thread_for_async_scheduler: false # Use virtual streams instead of regular ones
     stick-change-armorstand-arm-status: false # The stick can change the position of the armorstand's arms
+    use_virtual_thread_for_chat_executor: false # Use virtual thread for chat executor
+    use_virtual_thread_for_executor_noise_generation: false # Use virtual thread for executor noise generation
   protocols:
     appleskin-protocol: false # AppleSkin mod support
     jade-protocol: false # Jade mod support
